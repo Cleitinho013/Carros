@@ -1,10 +1,20 @@
-#Clonei o meu github
+#Clone o github
 $git clone https://github.com/Cleitinho013/carros.git
-#Adicionei o git
-$git add
-#configurei ele
-$git config user.email"kreuschfelipe0@gmail.com"
-#coloquei que esta na pasta AV5
-$git commit-m"AV5"
-salvei
-$git push
+
+abrir pasta com VSCode
+abrir terminal apartir da pasta
+crie um arquivo .env com o seguinte conteudo:
+host =    
+usuário = 
+senha = 
+porta = 
+banco =
+
+verifique se o UV esta instalado
+se estiver rode os seguintes comandos:
+uv add sqlalchemy
+uv add pymysql
+uv run main.py
+
+aproveite o programa
+
